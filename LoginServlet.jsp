@@ -44,7 +44,7 @@ public class LoginServlet extends HttpServlet {
 		}
 		
 		RequestDispatcher dispatcher;
-		dispatcher = request.getRequestDispatcher("url");
+		dispatcher = request.getRequestDispatcher(url);
 		dispatcher.forward(request,response);
 	}
 
